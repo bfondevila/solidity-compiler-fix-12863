@@ -1,0 +1,6 @@
+solc
+typechain-types
+cache
+artifacts
+node_modules
+.DS_Store

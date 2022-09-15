@@ -1,0 +1,32 @@
+{
+  "name": "solidity-fix-12863",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat clean && hardhat test",
+    "testFix": "USE_LOCAL_SOLC=1 yarn test"
+  },
+  "author": "bfondevila",
+  "license": "MIT",
+  "devDependencies": {
+    "@ethersproject/abi": "^5.4.7",
+    "@ethersproject/providers": "^5.4.7",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.2.0",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.11.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.7.21",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0",
+    "typescript": "^4.8.3"
+  }
+}
